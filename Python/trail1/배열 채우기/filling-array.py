@@ -7,6 +7,8 @@ for i in range(10):
     else:
         arr.append(b)
 for i in range(len(arr)-1, -1, -1):
-    print(arr[i], end = " ")
+    print(arr.pop(), end = " ")
+#    print(arr[i], end = " ")
     
-    
+#while arr:
+#    print(arr.pop())
